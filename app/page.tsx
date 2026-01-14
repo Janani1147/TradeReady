@@ -2,6 +2,7 @@ import { mockLoans, getReadinessSummary, formatCurrency } from "@/lib/loan-data"
 import { SummaryCard } from "@/components/summary-card"
 import { LoansTable } from "@/components/loans-table"
 import { ReadinessChart } from "@/components/readiness-chart"
+// DEBUG: TradeReady update check
 
 export default function DashboardPage() {
   const summary = getReadinessSummary()
